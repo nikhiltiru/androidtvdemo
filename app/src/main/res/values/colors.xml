@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="unfocussed_color">#40f0f0f0</color>
+    <color name="focussed_color">#ffcc0000</color>
+    <color name="pressed_color">#88cc0000</color>
+    <color name="default_color">#40f0f0f0</color>
+</resources>
