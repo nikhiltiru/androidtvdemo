@@ -7,4 +7,4 @@ As you can see, it is difficult to identify from a distance, which is the curren
 
 2. So, you either need to add the leanback effect (the focussed element will zoom out a bit) or draw a border around it
 or paint it with a different color. I have chosen the 3rd approach. This is how it looks now:
-![screenshots](button_with_style.png)
+![Alt text](/screenshots/button_with_style.png?raw=true "Buttons with Styling")
