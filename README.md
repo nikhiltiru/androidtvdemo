@@ -14,6 +14,7 @@ You can see that the 'Left' button is highlighted in Red.
 Without this, your app wont appear in the Home screen nor in the TV Play Store.
 
 4. Add the Home Banner of 320x180 px. Home Banner should carry the name of your application.
+![Alt text](/app/src/main/res/mipmap-xhdpi/home_tv.png?raw=true "Home Banner")
 
 5. To handle D-Pad navigation:
 
