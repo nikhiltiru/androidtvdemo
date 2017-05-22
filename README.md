@@ -6,17 +6,23 @@ Without this, your app wont appear in the Home screen nor in the TV Play Store.
 
 2. Once you have added the intent to your manifest, you need to add a Home Banner of 320x180 px. 
 Home Banner should carry the name of your application.
+
 ![Alt text](/app/src/main/res/mipmap-xhdpi/home_tv.png?raw=true "Home Banner")
+
 Now you should be able to see and launch your app from the Home Screen.
 Without the fist 2 steps, your app wont be listed in the Home screen, app drawer.
 
 3. Now coming to the layout of your application. It will look like this:
+
 ![Alt text](/screenshots/buttons_no_style.png?raw=true "Buttons with No Styling")
+
 As you can see, it is difficult to identify from a distance, which is the currently focussed button.
 
 4. So, you either need to add the leanback effect (the focussed element will zoom out a bit) or draw a border around it
 or paint it with a different color. I have chosen the 3rd approach. This is how it looks now:
+
 ![Alt text](/screenshots/button_with_style.png?raw=true "Buttons with Styling")
+
 You can see that the 'Left' button is highlighted in Red.
 To achieve this effect, I have applied the style style="@style/button_custom" to all the buttons.
 See /app/src/main/res/layout/activity_main.xml
