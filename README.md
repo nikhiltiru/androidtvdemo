@@ -15,16 +15,14 @@ Without this, your app wont appear in the Home screen nor in the TV Play Store.
 
 4. Add the Home Banner of 320x180 px. Home Banner should carry the name of your application.
 
-With these 4 changes, your basic TV app is ready.
-
 5. To handle D-Pad navigation:
-a. First you have to decide which view gets the focus on launch.
-You have to request it using view.requestFocus().
 
-b. Now once you set the focus, you have to control the navigation.
-If you press 'up' button of your remote, from the 'Bottom' button, the focus first goes to 'Right' button, then to the 'Top' button. In case, you want the focus to reach the 'Top' button directly from 'Bottom' button, you need to set
-buttonbottom.setNextFocusUpId(R.id.buttontop);
+    a. First you have to decide which view gets the focus on launch.
+    You have to request it using view.requestFocus().
+    
+    b. Now once you set the focus, you have to control the navigation.
+    If you press 'up' button of your remote, from the 'Bottom' button, the focus first goes to 'Right' button, then to the 'Top' button. In case, you want the focus to reach the 'Top' button directly from 'Bottom' button, you need to set
+    buttonbottom.setNextFocusUpId(R.id.buttontop);
+Similarly, you can modify for the other views.
 
-Similarly, you can modify accordingly for the other views.
-
-With this step, your D-Pad handling is also done.
+With these changes, your basic TV app is ready.
