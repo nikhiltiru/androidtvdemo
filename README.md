@@ -1,5 +1,8 @@
 # androidtvdemo
-This project demostrates the steps to be taken to port/create an app for Android TV
+This project demostrates the steps to be taken to port/create an app for Android TV. Compile this project as is and install it on to the TV. You can see that the app is not listed in the Home Screen app drawer. You can only open it from Settings -> Apps -> Downloaded Apps -> Android TvDemo.
+Experience its UI. You will find that the focus is not clear and navigation may not be as per your expectation.
+
+Now start following the below steps to make it TV ready.
 
 1. Modify the Android Manifest file to add the leanback launcher intent to your activity.
 Without this, your app wont appear in the Home screen nor in the TV Play Store.
