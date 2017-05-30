@@ -11,6 +11,7 @@ Without this, your app wont appear in the Home screen nor in the TV Play Store.
             </intent-filter>
 2. Once you have added the intent to your manifest, you need to add a Home Banner of 320x180 px. 
 Home Banner should carry the name of your application.
+Specify the reference to this banner in your Manifest under your activity: android:banner="@mipmap/home_tv"
 
 ![Alt text](/app/src/main/res/mipmap-xhdpi/home_tv.png?raw=true "Home Banner")
 
