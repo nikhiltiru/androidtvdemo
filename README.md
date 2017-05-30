@@ -3,7 +3,12 @@ This project demostrates the steps to be taken to port/create an app for Android
 
 1. Modify the Android Manifest file to add the leanback launcher intent to your activity.
 Without this, your app wont appear in the Home screen nor in the TV Play Store.
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
 2. Once you have added the intent to your manifest, you need to add a Home Banner of 320x180 px. 
 Home Banner should carry the name of your application.
 
