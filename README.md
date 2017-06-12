@@ -50,6 +50,6 @@ With these changes, your basic TV app is ready.
 
 ## Further enhancements - Control from mobile
 Once the basic TV app is ready, you can enhance it by having your mobile exchange data and controls with the TV.
-This can be done using NSD (generic) and Cast sdk.
-You can follow the next project https://github.com/nikhiltiru/tv-mobilecontrol to make these enhancements.
+This can be done using NSD (generic) and Cast sdk. This project already has the files related to NSD already added in the folder /app/src/main/java/com/android/tv/androidtvapp/nsd.
 
+You can follow the next project https://github.com/nikhiltiru/tv-mobilecontrol to make these enhancements.
