@@ -1,11 +1,11 @@
 # androidtvdemo
-This project demostrates the steps to be taken to port/create an app for Android TV. Compile this project as is and install it on to the TV. You can see that the app is not listed in the Home Screen app drawer. You can only open it from Settings -> Apps -> Downloaded Apps -> Android TvDemo.
+This project demonstrates the steps to be taken to port/create an app for Android TV. Compile this project as is and install it on to the TV. You can see that the app is not listed in the Home Screen app drawer. You can only open it from Settings -> Apps -> Downloaded Apps -> Android TvDemo.
 Experience its UI. You will find that the focus is not clear and navigation may not be as per your expectation.
 
 Now start following the below steps to make it TV ready.
 
 1. Modify the Android Manifest file to add the leanback launcher intent to your activity.
-Without this, your app wont appear in the Home screen nor in the TV Play Store.
+Without this, your app won't appear in the Home screen nor in the TV Play Store.
             
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,15 +19,15 @@ Specify the reference to this banner in your Manifest under your activity: andro
 ![Alt text](/app/src/main/res/mipmap-xhdpi/home_tv.png?raw=true "Home Banner")
 
 Now you should be able to see and launch your app from the Home Screen.
-Without the fist 2 steps, your app wont be listed in the Home screen, app drawer.
+Without the first 2 steps, your app wont be listed in the Home screen, app drawer.
 
 3. Now coming to the layout of your application. It will look like this:
 
 ![Alt text](/screenshots/buttons_no_style.png?raw=true "Buttons with No Styling")
 
-As you can see, it is difficult to identify from a distance, which is the currently focussed button.
+As you can see, it is difficult to identify from a distance, which is the currently focused button.
 
-4. So, you either need to add the leanback effect (the focussed element will zoom out a bit) or draw a border around it
+4. So, you either need to add the leanback effect (the focused element will zoom out a bit) or draw a border around it
 or paint it with a different color. I have chosen the 3rd approach. This is how it looks now:
 
 ![Alt text](/screenshots/button_with_style.png?raw=true "Buttons with Styling")
