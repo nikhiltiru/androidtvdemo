@@ -47,3 +47,9 @@ See /app/src/main/res/layout/activity_main.xml
 Similarly, you can modify for the other views.
 
 With these changes, your basic TV app is ready.
+
+## Further enhancements - Control from mobile
+Once the basic TV app is ready, you can enhance it by having your mobile exchange data and controls with the TV.
+This can be done using NSD (generic) and Cast sdk.
+You can follow the next project https://github.com/nikhiltiru/tv-mobilecontrol to make these enhancements.
+
